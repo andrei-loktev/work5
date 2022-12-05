@@ -12,6 +12,16 @@ public class Main {
         }
         //task2
         System.out.println("задание 2");
+        int temperatureUnit = 3;
+        if (temperatureUnit < 5) {
+            System.out.println("На улице " + temperatureUnit + " градуса, нужно надеть шапку");
+        }
+        int temperatureUnit2 = temperatureUnit + 4;
+        if (temperatureUnit2 >= 5) {
+            System.out.println("На улице " + temperatureUnit2 + " градусов, можно идти без шапки");
+        }
+        //task3
+        System.out.println("задание 3");
 
     }
 }
