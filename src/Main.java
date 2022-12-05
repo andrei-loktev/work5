@@ -25,10 +25,29 @@ public class Main {
         int speedDriver = 60;
         if (speedDriver <= 60) {
             System.out.println("Если скорость водителя " + speedDriver + " ,штрафа нет");
+        }
         int speedDriver2 = 80;
         if (speedDriver2 > 60) {
             System.out.println("Если скорость водителя " + speedDriver2 + " ,штраф есть");
         }
+        //task4
+        System.out.println("задание 4");
+        int agePerson = 18;
+        boolean GoToKindergarten = agePerson > 2 && agePerson <= 6;
+        if (GoToKindergarten) {
+                System.out.println("Нужно ходить в детский сад");
+        }
+        boolean GoToSchool = agePerson >= 7 && agePerson < 18;
+        if (GoToSchool) {
+            System.out.println("Нужно ходить в школу");
+        }
+        boolean GoToUniversity = agePerson >= 18 && agePerson < 24;
+        if (GoToUniversity) {
+            System.out.println("Нужно ходить в университет");
+        }
+        boolean GoToWork = agePerson >= 24;
+        if (GoToWork) {
+            System.out.println("Нужно ходить на работу");
         }
     }
 }
