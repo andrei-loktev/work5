@@ -61,6 +61,15 @@ public class Main {
         }
         //task6
         System.out.println("задание 6");
-
+        int numberPersons = 110;
+        if (numberPersons < 60) {
+            System.out.println("в поезде есть сидячие и стоячие места");
+        } else if (numberPersons >= 60 && numberPersons < 102) {
+            System.out.println("в поезде есть только стоячие места");
+        } else if (numberPersons == 102) {
+            System.out.println("в поезде мест нет");
+        } else {
+            System.out.println("вместимость вагона 102 человека");
+        }
     }
 }
