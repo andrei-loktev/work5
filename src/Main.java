@@ -35,7 +35,7 @@ public class Main {
         int agePerson = 18;
         boolean GoToKindergarten = agePerson > 2 && agePerson <= 6;
         if (GoToKindergarten) {
-                System.out.println("Нужно ходить в детский сад");
+            System.out.println("Нужно ходить в детский сад");
         }
         boolean GoToSchool = agePerson >= 7 && agePerson < 18;
         if (GoToSchool) {
@@ -49,5 +49,18 @@ public class Main {
         if (GoToWork) {
             System.out.println("Нужно ходить на работу");
         }
+        //task5
+        System.out.println("задание 5");
+        int ageChildren = 15;
+        if (ageChildren < 5) {
+            System.out.println("Если возраст ребёнка " + ageChildren + " ,ему нельзя кататься на аттракционе.");
+        } else if (ageChildren >= 5 && ageChildren < 14) {
+            System.out.println("Если возраст ребёнка " + ageChildren + " ,ему можно кататься на аттракционе при родителях.");
+        } else if (ageChildren >= 14) {
+            System.out.println("Если возраст ребёнка " + ageChildren + " ,ему можно кататься на аттракционе");
+        }
+        //task6
+        System.out.println("задание 6");
+
     }
 }
