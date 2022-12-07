@@ -4,11 +4,10 @@ public class Main {
         System.out.println("задание 1");
         int age = 25;
         if (age >= 18) {
-            System.out.println("Если возраст человека " + age + " лет, он совершеннолетний");
+            System.out.println("Вы совершеннолетний");
         }
-        int age2 = 15;
-        if (age2 < 18) {
-            System.out.println("Если возраст человека " + age2 + " лет, он не совершеннолетний");
+        if (age < 18) {
+            System.out.println("Вы не совершеннолетний");
         }
         //task2
         System.out.println("задание 2");
@@ -70,6 +69,21 @@ public class Main {
             System.out.println("в поезде мест нет");
         } else {
             System.out.println("вместимость вагона 102 человека");
+        }
+        //task7
+        System.out.println("задание 7");
+        int one = 10;
+        int two = 2;
+        int three = 3;
+        boolean oneMore = one > two && one > three;
+        boolean twoMore = two > one && two > three;
+        boolean threeMore = three > one && three > two;
+        if (oneMore) {
+            System.out.println("Единица ТОП");
+        } else if (twoMore) {
+            System.out.println("Двойка ТОП");
+        } else if (threeMore) {
+            System.out.println("Тройка ТОП");
         }
     }
 }
